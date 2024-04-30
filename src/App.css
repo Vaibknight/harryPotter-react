@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: block !important;
+  min-height: 0 !important;
+  font-family: "Sofia Sans", sans-serif;
+  overflow-x: hidden;
+}
+
+.blue-bg {
+  background-color: #242633;
+}
+
+.f-14 {
+  font-size: 14px;
+}
+
+.black-bg {
+  background-color: #10141b;
+}
+
+.background {
+  background-image: url("./assets/ban.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.background-1 {
+  background-image: url("./assets/back.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.background-2 {
+  background-image: url("./assets/Movies.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.background-3 {
+  background-image: url("./assets/potions.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.background-4 {
+  background-image: url("./assets/Spells.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.background-5 {
+  background-image: url("./assets/stars.png") !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% 100% !important;
+}
+.background-6 {
+  background-image: url("./assets/Films.png") !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% 100% !important;
+}
+.background-7 {
+  background-image: url("./assets/Spel.png") !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% 100% !important;
+}
+.background-8 {
+  background-image: url("./assets/characters.png") !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% 100% !important;
+}
+.background-9 {
+  background-image: url("./assets/book.png") !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% 100% !important;
+}
+.background-10 {
+  background-image: url("./assets/potion.png") !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% 100% !important;
+}
+.background-11 {
+  background-image: url("./assets/games.png") !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% 100% !important;
+}
+.black-bg {
+  background: rgb(16, 20, 27);
+}
+.gray-text {
+  color: #ffffff99;
+}
+.center-div {
+  position: absolute;
+  left: 30%;
+  top: 50%;
+  right: 30%;
+}
+#root {
+  background: rgb(16, 20, 27);
+}
+.crousel {
+  position: absolute;
+  bottom: 42px;
+  left: 157px;
+  color: white;
+}
+.margin-60 {
+  margin: 0 auto;
+  width: 60% !important;
+}
