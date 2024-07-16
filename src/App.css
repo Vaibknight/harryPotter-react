@@ -104,3 +104,176 @@ body {
   margin: 0 auto;
   width: 60% !important;
 }
+
+nav ul {
+  display: flex;
+}
+
+.flex {
+  display: flex;
+}
+
+footer img {
+  width: 30%;
+}
+
+.menu {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  nav ul {
+    display: block !important;
+    text-align: center !important;
+  }
+
+  header .row {
+    display: block;
+  }
+
+  .owl-stage {
+    display: inline !important;
+  }
+
+  .owl-stage .background-9 {
+    margin: 10px -23px !important;
+  }
+
+  .owl-stage .background-10 {
+    margin: 10px 60px !important;
+  }
+
+  .owl-stage .background-6 {
+    margin: 10px 60px !important;
+  }
+
+  .owl-stage .background-11 {
+    margin: 10px -23px !important;
+  }
+
+  .owl-stage .background-7 {
+    margin: 10px -23px !important;
+  }
+
+  .owl-stage .background-8 {
+    margin: 10px 60px !important;
+  }
+
+  .owl-stage .crousel {
+    display: none;
+  }
+
+  footer .flex {
+    display: block;
+  }
+
+  footer .row {
+    display: block;
+    text-align: center;
+  }
+
+  footer .col-4,
+  .col-8 {
+    width: 100%;
+  }
+
+  .black-bg > .background,
+  .background-3 {
+    height: 200px !important;
+    position: relative;
+  }
+
+  .black-bg > .background-1,
+  .background-4 {
+    height: 350px !important;
+    position: relative;
+  }
+
+  .black-bg > .background-4 .center-div p {
+    font-size: 10px !important;
+  }
+
+  .black-bg > .background-2 {
+    height: 300px !important;
+    position: relative;
+  }
+
+  .black-bg > .background-1 p {
+    font-size: 10px;
+  }
+
+  .black-bg > .background-2 p {
+    font-size: 10px;
+  }
+
+  .black-bg h2 {
+    font-size: 20px !important;
+  }
+
+  /* .black-bg p {
+    font-size: 10px !important;
+  } */
+
+  .bg-p {
+    font-size: 10px !important;
+  }
+
+  .background > div {
+    padding: 22px 0px !important;
+  }
+
+  header .col-6 {
+    width: 100%;
+  }
+
+  header .col {
+    width: 100%;
+    gap: 50px;
+    margin: 0px 36px;
+  }
+
+  .menu {
+    display: block;
+    font-size: 25px;
+  }
+
+  .books .col-3 {
+    width: 100% !important;
+    margin: 0px 65px;
+  }
+
+  .potion .col-3 {
+    width: 100% !important;
+    margin: 0px 57px;
+  }
+
+  .potion .col-3 > p {
+  }
+
+  .movies .col-3 {
+    width: 100% !important;
+    margin: 0px 20px;
+  }
+
+  .spell .col-3 {
+    width: 100% !important;
+    margin: 0px 53px;
+  }
+
+  .char .col-3 {
+    width: 100% !important;
+    margin: 0px 65px;
+  }
+
+  .movies .col-3 > p {
+    font-size: 20px;
+  }
+
+  .row {
+    display: block;
+  }
+
+  .center-div {
+    top: 15%;
+  }
+}

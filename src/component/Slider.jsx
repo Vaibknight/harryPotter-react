@@ -13,7 +13,7 @@ const Slider = () => {
         <div class="item margin-60">
           <Link to="movies">
             <div
-              className="background-6"
+              className="background-6 bg"
               width="100"
               height="400"
               style={{ height: "300px", width: "216px" }}
@@ -25,7 +25,7 @@ const Slider = () => {
         <div class="item margin-60">
           <Link to="spells">
             <div
-              className="background-7"
+              className="background-7 bg"
               width="100"
               height="400"
               style={{ height: "300px", width: "216px" }}
@@ -37,7 +37,7 @@ const Slider = () => {
         <div class="item margin-60">
           <Link to="characters">
             <div
-              className="background-8"
+              className="background-8 bg"
               width="100"
               height="400"
               style={{ height: "300px", width: "216px" }}
@@ -51,7 +51,7 @@ const Slider = () => {
         <div class="item margin-60">
           <Link to="books">
             <div
-              className="background-9"
+              className="background-9 bg"
               width="100"
               height="400"
               style={{ height: "300px", width: "216px" }}
@@ -63,7 +63,7 @@ const Slider = () => {
         <div class="item margin-60">
           <Link to="potions">
             <div
-              className="background-10"
+              className="background-10 bg"
               width="100"
               height="400"
               style={{ height: "300px", width: "216px" }}
@@ -75,7 +75,7 @@ const Slider = () => {
         <div class="item margin-60">
           <Link to="games">
             <div
-              className="background-11"
+              className="background-11 bg"
               width="100"
               height="400"
               style={{ height: "300px", width: "216px" }}

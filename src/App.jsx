@@ -14,12 +14,19 @@ import Home from "./component/Home";
 import Footer from "./component/Footer";
 
 function App() {
+  const [hideNav, setHideNav] = useState(false);
+
+  const hide = () => {
+    hideNav == false ? setHideNav(true) : setHideNav(false);
+  };
+
   const api = "https://api.potterdb.com/v1/";
   return (
     <>
       <BrowserRouter>
-        <Header />
-        <Nav />
+        <Header hide={hide} />
+        {hideNav ? <Nav /> : ""}
+
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/books" element={<Books api={api} />} />

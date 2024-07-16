@@ -30,7 +30,7 @@ const Books = ({ api }) => {
 
   return (
     <>
-      <div className="black-bg">
+      <div className="black-bg books">
         <div className="background-1" style={{ height: "500px" }}>
           <div>
             <div className="center-div">

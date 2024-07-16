@@ -25,14 +25,14 @@ const Characters = ({ api }) => {
 
   return (
     <>
-      <div className="black-bg">
+      <div className="black-bg char">
         <div className="background-1" style={{ height: "500px" }}>
           <div>
             <div className="center-div">
               <p className="text-light text-center">
                 Discover the wizarding world
               </p>
-              <h1 className="text-light text-center">Books</h1>
+              <h1 className="text-light text-center">Characters</h1>
               <p className="text-light text-center">
                 The first Harry Potter book, Harry Potter and the Philosopher’s
                 Stone, was published by Bloomsbury in 1997 to immediate popular

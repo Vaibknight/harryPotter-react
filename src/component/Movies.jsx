@@ -28,7 +28,7 @@ const Movies = ({ api }) => {
 
   return (
     <>
-      <div className="black-bg">
+      <div className="black-bg movies">
         <div className="background-2" style={{ height: "650px" }}>
           <div>
             <div className="center-div">

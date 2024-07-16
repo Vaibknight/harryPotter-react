@@ -19,7 +19,7 @@ const Home = () => {
             Happy birthday, Gred <br />
             and Forge
           </h2>
-          <p className="text-light text-end container fs-5">
+          <p className="text-light text-end container fs-5 bg-p">
             This is no April Fool's Day prank, we've actually put together{" "}
             <br /> an entire page dedicate to the masters of mischief - the{" "}
             <br /> Weasley twins! Celebrate Fred and George, and <br /> try and

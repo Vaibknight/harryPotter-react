@@ -27,7 +27,7 @@ const Potions = ({ api }) => {
 
   return (
     <>
-      <div className="black-bg">
+      <div className="black-bg potion">
         <div className="background-3" style={{ height: "500px" }}>
           <div>
             <div className="center-div">

@@ -27,7 +27,7 @@ const Spells = ({ api }) => {
 
   return (
     <>
-      <div className="black-bg">
+      <div className="black-bg spell">
         <div className="background-4" style={{ height: "500px" }}>
           <div>
             <div className="center-div">
